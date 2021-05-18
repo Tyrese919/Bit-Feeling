@@ -3,7 +3,7 @@
 **Team**:
 
 - @Tyrese van Schagen - Team lead
-- @Bob - product owner
+- @... - product owner
 - @Joshua van den berselaar - Developer
 - @Justin van der heide - Developer
 - @Quinten Schaap - Developer
@@ -17,7 +17,7 @@ Features:
 - A overview for the teacher to see all the students feelings
 - Explenation why you are not doing well after an amount of times in a row
 -  keeping Track of people after a while to get a notification to get a checkmark behind your name so teachers know something is up
-- App version
+- android version
 - A way to customise your account
 - A way to ask help if you are stuck with your work
 
@@ -36,17 +36,16 @@ Features:
 **Maybe do**:
 - Explenation why you are not doing well after an amount of times in a row
 - keeping track of the amount of checkmarks in a row that have been negative so the teacher gets a warning to help the student
-- App version
+- possible web version
 - A way to customize your account
 - A way to ask help if you are stuck with your work
 
 **Communication**:
 - Standups twice a week (Tuesday & Friday).
 - Contact via discord.
+- Sprint meeting on friday
 
 **Milestones**:
 
 Week 1 & 2: 
-- Having the idea and preparation for the start of the project.
-- Make an example design for the future.
-- Make a beta version of the app.
+- you can say how you are feeling
