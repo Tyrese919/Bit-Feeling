@@ -3,26 +3,26 @@
 **Team**:
 
 - @Tyrese van Schagen - Team lead
-- @... - product owner
+- @... - Product owner
 - @Joshua van den berselaar - Developer
 - @Justin van der heide - Developer
 - @Quinten Schaap - Developer
 
 **Scope**:
 Features:
-- login system
-- a way to make a class for all the people to go in
+- Login system
+- A way to make a class for all the people to go in
 - Notification every day
 - Notification to teacher after a spree of not doing good
 - A overview for the teacher to see all the students feelings
 - Explenation why you are not doing well after an amount of times in a row
--  keeping Track of people after a while to get a notification to get a checkmark behind your name so teachers know something is up
-- android version
+- Keeping track of people after a while to get a notification to get a checkmark behind your name so teachers know something is up
+- Android version
 - A way to customise your account
 - A way to ask help if you are stuck with your work
 
 **Will do**:
-- login system
+- Login system
 - A Notification every day
 - A Notification to teacher after a spree of not doing good
 - a way to make a classroom for all the people to go in
@@ -30,13 +30,13 @@ Features:
 
 
 **Will NOT do**:
-- not adding specific feelings but only sticking with the am i feeling good or bad
+- Not adding specific feelings but only sticking with the am i feeling good or bad
 
 
 **Maybe do**:
 - Explenation why you are not doing well after an amount of times in a row
-- keeping track of the amount of checkmarks in a row that have been negative so the teacher gets a warning to help the student
-- possible web version
+- Keeping track of the amount of checkmarks in a row that have been negative so the teacher gets a warning to help the student
+- Possible web version
 - A way to customize your account
 - A way to ask help if you are stuck with your work
 
@@ -48,4 +48,4 @@ Features:
 **Milestones**:
 
 Week 1 & 2: 
-- you can say how you are feeling
+- You can say how you are feeling
