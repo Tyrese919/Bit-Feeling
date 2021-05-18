@@ -4,9 +4,13 @@ A place where all the goodies are hiding
 Team:
 
 @Tyrese van Schagen - Team lead
+
 @Bob - product owner
+
 @Joshua van den berselaar - Developer
+
 @Justin van der heide - Developer
+
 @Quinten Scheep - Developer
 
 Scope:
@@ -31,6 +35,7 @@ Will do:
 
 
 Will NOT do:
+- not adding specific feelings but only sticking with the am i feeling good or bad
 
 
 Maybe do:
