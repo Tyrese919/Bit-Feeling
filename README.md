@@ -44,7 +44,7 @@ Features:
 - Standups twice a week (Tuesday & Friday).
 - Contact via discord.
 
-##Milestones##:
+**Milestones**:
 
 Week 1 & 2: 
 - Having the idea and preparation for the start of the project.
