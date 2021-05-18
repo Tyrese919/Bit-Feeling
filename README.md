@@ -1,6 +1,6 @@
 # Bit-Feeling
 
-Team:
+*Team*:
 
 - @Tyrese van Schagen - Team lead
 - @Bob - product owner
@@ -8,7 +8,7 @@ Team:
 - @Justin van der heide - Developer
 - @Quinten Schaap - Developer
 
-Scope:
+*Scope*:
 Features:
 - login system
 - a way to make a class for all the people to go in
@@ -21,7 +21,7 @@ Features:
 - A way to customise your account
 - A way to ask help if you are stuck with your work
 
-Will do:
+#Will do#:
 - login system
 - A Notification every day
 - A Notification to teacher after a spree of not doing good
