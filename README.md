@@ -28,7 +28,8 @@ Will do:
 - A Notification to teacher after a spree of not doing good
 - a way to make a classroom for all the people to go in
 - An overview for the teachers to see all the students feelings
-- 
+
+
 Will NOT do:
 
 
