@@ -39,3 +39,14 @@ Maybe do:
 - App version
 - A way to customize your account
 - A way to ask help if you are stuck with your work
+
+Communication:
+- Standups twice a week (Tuesday & Friday).
+- Contact via discord.
+
+Milestones:
+
+Week 1 & 2: 
+- Having the idea and preparation for the start of the project.
+- Make an example design for the future.
+- Make a beta version of the app.
