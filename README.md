@@ -1,6 +1,6 @@
 # Bit-Feeling
 
-**Team**:
+__**Team**__:
 
 - @Tyrese van Schagen - Team lead
 - @Bob - product owner
