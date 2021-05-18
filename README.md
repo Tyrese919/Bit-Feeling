@@ -3,15 +3,11 @@ A place where all the goodies are hiding
 
 Team:
 
--@Tyrese van Schagen - Team lead
-
--@Bob - product owner
-
--@Joshua van den berselaar - Developer
-
--@Justin van der heide - Developer
-
--@Quinten Schaap - Developer
+- @Tyrese van Schagen - Team lead
+- @Bob - product owner
+- @Joshua van den berselaar - Developer
+- @Justin van der heide - Developer
+- @Quinten Schaap - Developer
 
 Scope:
 Features:
