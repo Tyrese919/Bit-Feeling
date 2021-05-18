@@ -27,8 +27,10 @@ Will do:
 - Notification to teacher after a spree of not doing good
 - an way to make a class for all the people to go in
 - An overvieuw for the teacher to see all the students feelings
+- 
 Will NOT do:
 ?
+
 Maybe do:
 - Expelation why u not doing good after a amount of tines in a row
 - Track of people after a while to get a notification to get a mark after your name so teachers know something is up
