@@ -22,8 +22,9 @@ Features:
 - A way to ask help if you are stuck with your work
 
 **Will do**:
-- Login system
 - A Notification every day
+- A way for students to chose how they feel
+- A way for students to see what the chose before
 - A Notification to teacher after a spree of not doing good
 - a way to make a classroom for all the people to go in
 - An overview for the teachers to see all the students feelings
@@ -34,6 +35,7 @@ Features:
 
 
 **Maybe do**:
+- Login system
 - Explenation why you are not doing well after an amount of times in a row
 - Keeping track of the amount of checkmarks in a row that have been negative so the teacher gets a warning to help the student
 - Possible web version
