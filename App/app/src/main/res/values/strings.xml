@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Bit Mood</string>
     <string name="questionmark_pressed">If you have any questions feel free to contact your teachers.</string>
-    
+    <string name="chatbutton_pressed">This feature has not been added.</string>
 </resources>
