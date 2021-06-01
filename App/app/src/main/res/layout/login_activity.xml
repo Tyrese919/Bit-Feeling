@@ -25,67 +25,53 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/loginStudent"
+        android:layout_marginTop="75dp"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="65dp"
-        android:layout_marginRight="80dp"
-        android:background="@drawable/border"
-        android:fontFamily="@font/arima_madurai_thin"
+        android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:padding="10dp"
-        android:text="Login as: Student"
-        android:textColor="@color/bitWhite"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:text="School code:"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:layout_marginRight="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your school code here"
+        android:gravity="center_horizontal"
+        android:textSize="14sp" />
 
     <TextView
-        android:id="@+id/loginTeacher"
+        android:layout_marginTop="75dp"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="65dp"
-        android:layout_marginRight="80dp"
-        android:background="@drawable/border"
-        android:fontFamily="@font/arima_madurai_thin"
+        android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:padding="10dp"
-        android:text="Login as: Teacher"
-        android:textColor="@color/bitWhite"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:text="Password:"
+        android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/registerStudent"
+    <EditText
+        android:layout_marginRight="75dp"
+        android:layout_marginLeft="75dp"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:padding="10dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="65dp"
-        android:layout_marginRight="80dp"
-        android:background="@drawable/border"
-        android:fontFamily="@font/arima_madurai_thin"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password here"
         android:gravity="center_horizontal"
-        android:text="Register as: Student"
-        android:textColor="@color/bitWhite"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textSize="14sp"/>
 
-    <TextView
-        android:id="@+id/registerTeacher"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:padding="10dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="65dp"
-        android:layout_marginRight="80dp"
+    <Button
+        android:id="@+id/signin"
+        android:layout_marginTop="50dp"
         android:background="@drawable/border"
-        android:fontFamily="@font/arima_madurai_thin"
-        android:gravity="center_horizontal"
-        android:text="Register as: Teacher"
-        android:textColor="@color/bitWhite"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in" />
 
+    <ImageView
+        android:id="@+id/questionmark"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/questionmark"/>
 </LinearLayout>

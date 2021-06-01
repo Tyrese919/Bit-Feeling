@@ -2,10 +2,13 @@ package com.example.android.bitfeeling;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,41 +17,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_activity);
 
-        TextView studentLoginTextView = (TextView) findViewById(R.id.loginStudent);
-        TextView teacherLoginTextView = (TextView) findViewById(R.id.loginTeacher);
-        TextView studentRegisterTextView =  (TextView) findViewById(R.id.registerStudent);
-        TextView teacherRegisterTextView = (TextView)  findViewById(R.id.registerTeacher);
+        Button signinButton = (Button)  findViewById(R.id.signin);
+        ImageView questionImage = (ImageView) findViewById(R.id.questionmark);
 
-        studentLoginTextView.setOnClickListener(new View.OnClickListener() {
+        signinButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, LoginStudentActivity.class);
+                Intent intent = new Intent(MainActivity.this, FeelingsActivity.class);
                 startActivity(intent);
             }
         });
 
-        teacherLoginTextView.setOnClickListener(new View.OnClickListener() {
+        questionImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, LoginTeacherActivity.class);
-                startActivity(intent);
+                Toast.makeText(MainActivity.this, getResources().getString(R.string.questionmark_pressed), Toast.LENGTH_LONG).show();
             }
         });
 
-        studentRegisterTextView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, RegisterStudentActivity.class);
-                startActivity(intent);
-            }
-        });
 
-        teacherRegisterTextView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, RegisterTeacherActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 }
