@@ -81,11 +81,11 @@ img {
   }
 
  @keyframes myfirst {
-     0%   {background-color:#948AA8; left:0px; top:0px;}
-     25%  {background-color:lightblue; left:300px; top:0px;}
+     0%   {background-color:#948AA8; left:00px; top:00px;}
+     25%  {background-color:lightblue; left:300px; top:00px;}
      50%  {background-color:#948AA8; left:300px; top:300px;}
-     75%  {background-color:lightblue; left:0px; top:300px;}
-     100% {background-color:#948AA8; left:0px; top:0px;}
+     75%  {background-color:lightblue; left:00px; top:300px;}
+     100% {background-color:#948AA8; left:00px; top:00px;}
  }
  h1 {
      text-align: center;
@@ -101,6 +101,10 @@ img {
  }
  footer {
      margin-top: 400px;
+ }
+ * {
+     margin: 0;
+     padding: 0;
  }
 
 
