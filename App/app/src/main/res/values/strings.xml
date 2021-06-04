@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">Bit Mood</string>
+
+<!--  Pressing Strings -->
     <string name="questionmark_pressed">If you have any questions feel free to contact your teachers.</string>
     <string name="chatbutton_pressed">This feature has not been added.</string>
+
+<!--    Login Strings -->
+    <string name="empty_login_view">You forgot to fill in your student code or password!</string>
+    <string name="login_succes">You logged in succesfully!</string>
+    <string name="login_fail">Your login details aren\'t correct.</string>
 </resources>

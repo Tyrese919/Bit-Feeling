@@ -30,6 +30,7 @@
         android:textSize="24sp"/>
 
     <EditText
+        android:id="@+id/logincode"
         android:layout_marginRight="75dp"
         android:layout_marginLeft="75dp"
         android:layout_width="match_parent"
@@ -47,6 +48,7 @@
         android:textSize="24sp" />
 
     <EditText
+        android:id="@+id/loginpassword"
         android:layout_marginRight="75dp"
         android:layout_marginLeft="75dp"
         android:layout_width="match_parent"
@@ -56,6 +58,7 @@
         android:textSize="14sp"/>
 
     <Button
+        android:onClick="login"
         android:id="@+id/signin"
         android:layout_marginTop="50dp"
         android:background="@drawable/border"
