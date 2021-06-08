@@ -21,9 +21,9 @@
 
     <nav>
         <img id="Logo" src="BitMoodtransparantedited.png">
-        <button class="button1"><a href="classes.html">Classes</a></button>
-        <button class="button2"><a href="feelings.html">Feelings</a></button>
-        <button class="button3"><a href="login.html">Login</a></button>
+        <button class="button1"><a href="classes.php">Classes</a></button>
+        <button class="button2"><a href="feelings.php">Feelings</a></button>
+        <button class="button3"><a href="login.php">Login</a></button>
     </nav>
     <marquee direction="left" behavior="alternate"><text>Welcome to</text></marquee>
     <div id="Bit Mood anim"><h1>Bit Mood</h1></div>

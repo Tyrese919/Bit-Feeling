@@ -24,9 +24,9 @@
 
     <nav>
       <img id="Logo" src="BitMoodtransparantedited.png" />
-      <button class="button1"><a href="login.html">Login</a></button>
-      <button class="button2"><a href="home.html">Home</a></button>
-      <button class="button3"><a href="feelings.html">Feelings</a></button>
+      <button class="button1"><a href="login.php">Login</a></button>
+      <button class="button2"><a href="home.php">Home</a></button>
+      <button class="button3"><a href="feelings.php">Feelings</a></button>
     </nav>
 
     <footer>
