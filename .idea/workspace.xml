@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67486d20-0b7f-4acd-a9cf-87bfe2d0bed2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/app/src/main/java/com/example/android/bitfeeling/AlarmReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/app/src/main/java/com/example/android/bitfeeling/FeelingsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/App/app/src/main/java/com/example/android/bitfeeling/FeelingsActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/app/src/main/java/com/example/android/bitfeeling/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/App/app/src/main/java/com/example/android/bitfeeling/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/app/src/main/res/layout/login_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App/app/src/main/res/layout/login_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feelings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +16,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1tUqG7jZdzw6uP5cEW4boDdKfCK" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/App/app" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,15 +52,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622833916569</updated>
+      <workItem from="1623154376921" duration="1724000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
