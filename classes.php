@@ -18,8 +18,7 @@
         $dbname = "scrumteam5";
         $charset = "utf8mb4";
 
-        $dsn = "mysql:51.68.47.8=" . $servername . ";dbname=" . $dbname . ";charset=" . $charset;
-        $pdo = new PDO($dsn, $username, $password);
+    $conn = new mysqli($servername, $username, $password);
     ?>
 
     <nav>
