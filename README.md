@@ -41,6 +41,8 @@ Features:
 - Possible web version
 - A way to customize your account
 - A way to ask help if you are stuck with your work
+- Calander with all of your stats. since u started using it
+- Forgotten password
 
 **Communication**:
 - Standups twice a week (Tuesday & Friday).
