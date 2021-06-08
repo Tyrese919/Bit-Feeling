@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
         Calendar cal = Calendar.getInstance();
 
         cal.setTimeInMillis(System.currentTimeMillis());
-        cal.set(Calendar.HOUR_OF_DAY, 21);
-        cal.set(Calendar.MINUTE, 46);
+        cal.set(Calendar.HOUR_OF_DAY, 12);
+        cal.set(Calendar.MINUTE, 0);
         cal.set(Calendar.SECOND, 0);
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(),AlarmManager.INTERVAL_DAY,broadcast);
 

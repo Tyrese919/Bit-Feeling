@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/bitLightBlue">
+    android:background="@color/bitWhite">
 
     <LinearLayout
         android:orientation="vertical"
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Class:"
-        android:textColor="@color/bitWhite"
+        android:textColor="@color/bitBlack"
         android:textSize="24sp"/>
 
     <View
@@ -36,7 +36,7 @@
         android:layout_marginRight="100dp"
         android:layout_width="fill_parent"
         android:layout_height="1dp"
-        android:background="#ffffff" />
+        android:background="@color/bitGray" />
 
     <TextView
         android:layout_marginTop="10dp"
@@ -44,12 +44,12 @@
         android:layout_height="wrap_content"
         android:text="Class name"
         android:textSize="16sp"
-        android:textColor="#d3d3d3"
+        android:textColor="@color/bitGray"
         android:gravity="center_horizontal" />
 
     <TextView
         android:textSize="20sp"
-        android:textColor="@color/bitWhite"
+        android:textColor="@color/bitBlack"
         android:layout_marginTop="95dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
         android:layout_marginRight="80dp"
         android:layout_width="fill_parent"
         android:layout_height="1dp"
-        android:background="#ffffff" />
+        android:background="@color/bitGray" />
 
     <LinearLayout
         android:layout_marginTop="25dp"

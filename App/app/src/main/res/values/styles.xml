@@ -3,7 +3,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/bitDarkBlue</item>
+        <item name="colorPrimary">@color/bitLightBlue</item>
         <item name="colorPrimaryDark">@color/bitLightBlue</item>
         <item name="colorAccent">@color/bitWhite</item>
 
