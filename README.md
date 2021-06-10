@@ -24,7 +24,6 @@ Features:
 **Will do**:
 - A Notification every day
 - A way for students to chose how they feel
-- A way for students to see what the chose before
 - A Notification to teacher after a spree of not doing good
 - a way to make a classroom for all the people to go in
 - An overview for the teachers to see all the students feelings
@@ -43,6 +42,7 @@ Features:
 - A way to ask help if you are stuck with your work
 - Calander with all of your stats. since u started using it
 - Forgotten password
+- A way for students to see what the chose before
 
 **Communication**:
 - Standups twice a week (Tuesday & Friday).
