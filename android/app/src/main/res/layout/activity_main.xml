@@ -13,8 +13,8 @@
         android:onClick="GetTextFromSQL"
         android:text="Load"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="144dp" />
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="225dp" />
 
     <TextView
         android:id="@+id/textView"

@@ -12,10 +12,10 @@ public class ConnectionHelper {
     String uname, pass, ip, port,database;
     @SuppressLint("NewApi")
     public Connection Connectionclass(){
-        ip = "127.0.0.1";
-        database = "bit_mood";
-        uname = "root";
-        pass = "";
+        ip = "51.68.47.8";
+        database = "scrumteam5";
+        uname = "scrumteam5";
+        pass = "G2rc3L400dI024Ce";
         port = "3306";
 
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
@@ -36,4 +36,4 @@ public class ConnectionHelper {
         return connection;
     }
 
-}
+} 
