@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             String query= "Select * from students";
             Statement st= connect.createStatement();
             ResultSet rs = st.executeQuery(query);
-
+            System.out.println(rs);
             while (rs.next()) {
                 tx1.setText(rs.getString(1));
                 tx2.setText(rs.getString(2));
