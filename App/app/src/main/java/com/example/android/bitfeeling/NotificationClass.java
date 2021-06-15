@@ -1,5 +1,6 @@
 package com.example.android.bitfeeling;
 
+import android.annotation.SuppressLint;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -29,7 +30,7 @@ public class NotificationClass extends BroadcastReceiver {
 
         Notification.Builder builder = new Notification.Builder(context);
 
-        Notification notification =
+        @SuppressLint("WrongConstant") Notification notification =
                 builder.setContentText("Don't forget to fill in your mood for today!")
                         .setSmallIcon(R.drawable.bitmoodlogo)
                         .setContentIntent(pendingIntent).build();
