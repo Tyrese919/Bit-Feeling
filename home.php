@@ -22,7 +22,13 @@ try {
     print "Error!: " . $e->getMessage() . "<br/>";
     die();
 }
+
+
 ?>
+
+
+
+
 
     <nav>
         <img id="Logo" src="BitMoodtransparantedited.png">
