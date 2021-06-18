@@ -12,19 +12,7 @@
 <body>
 
 <?php
-$servername = "51.68.47.8";
-$username = "scrumteam5";
-$password = "G2rc3L400dI024Ce";
-$dbname = "scrumteam5";
-$charset = "utf8mb4";
 
-$dsn = "mysql:host=" . $servername . ";dbname=" . $dbname . ";charset=" . $charset;
-try {
-    $pdo = new PDO($dsn, $username, $password);
-} catch (PDOException $e) {
-    print "Error!: " . $e->getMessage() . "<br/>";
-    die();
-}
 
 
 ?>

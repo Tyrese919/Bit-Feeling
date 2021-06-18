@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <title>classes.html</title>
     <link rel="stylesheet" type="text/css" href="login.css" />
+      <?php
+      include 'config.php';
+      ?>
   </head>
   <style>
     A {
@@ -12,19 +15,7 @@
   </style>
   <body>
   <?php
-  $servername = "51.68.47.8";
-  $username = "scrumteam5";
-  $password = "G2rc3L400dI024Ce";
-  $dbname = "scrumteam5";
-  $charset = "utf8mb4";
 
-  $dsn = "mysql:host=" . $servername . ";dbname=" . $dbname . ";charset=" . $charset;
-  try {
-      $pdo = new PDO($dsn, $username, $password);
-  } catch (PDOException $e) {
-      print "Error!: " . $e->getMessage() . "<br/>";
-      die();
-  }
   // session start
   session_start();
 

@@ -4,24 +4,17 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="feelings.css">
     <title>feelings.html</title>
+    <?php
+    include 'config.php'
+    ?>
+
+
 </head>
 <STYLE>A {text-decoration: none;} </STYLE>
 <body>
 
-<?php
-$servername = "51.68.47.8";
-$username = "scrumteam5";
-$password = "G2rc3L400dI024Ce";
-$dbname = "scrumteam5";
-$charset = "utf8mb4";
 
-$dsn = "mysql:host=" . $servername . ";dbname=" . $dbname . ";charset=" . $charset;
-try {
-    $pdo = new PDO($dsn, $username, $password);
-} catch (PDOException $e) {
-    print "Error!: " . $e->getMessage() . "<br/>";
-    die();
-}
+
 $name="name";
 
 $surname="surname";
