@@ -22,18 +22,19 @@ try {
     print "Error!: " . $e->getMessage() . "<br/>";
     die();
 }
-$name="user";
+$name="name";
 
-$address="jaipur";
+$surname="surname";
 
-$mark="100%";
+$schoolcode="schoolcode";
 
-$best="best";
+$feeling="feeling";
 
-// session start
-session_start();
 
-// if the user is logged in welcome to home page
+
+
+
+
 
 
 ?>
@@ -48,8 +49,7 @@ session_start();
 
         <td>schoolcode</td>
 
-        <td>feelings</td>
-        <td>happiness index</td>
+        <td>feeling</td>
 
     </tr>
 
