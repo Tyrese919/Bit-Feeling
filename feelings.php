@@ -22,7 +22,39 @@ try {
     print "Error!: " . $e->getMessage() . "<br/>";
     die();
 }
+$name="user";
+
+$address="jaipur";
+
+$mark="100%";
+
+$best="best";
+
+// session start
+session_start();
+
+// if the user is logged in welcome to home page
+
+
 ?>
+
+<table border="1px" cellpadding="4" cellspacing="50">
+
+    <tr>
+
+        <td>name</td>
+
+        <td>surname</td>
+
+        <td>schoolcode</td>
+
+        <td>feelings</td>
+        <td>happiness index</td>
+
+    </tr>
+
+    <tr>
+
     <nav>
         <img id="Logo" src="BitMoodtransparantedited.png">
         <button class="button1"><a href="classes.php">Classes</a></button>
