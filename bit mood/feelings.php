@@ -22,32 +22,11 @@ $feeling="feeling";
 
 ?>
 
-
-
-
-
-
-<table border="1px" cellpadding="4" cellspacing="50">
-
-    <tr>
-
-        <td>name</td>
-
-        <td>surname</td>
-
-        <td>schoolcode</td>
-
-        <td>feeling</td>
-
-    </tr>
-
-    <tr>
-
     <nav>
         <img id="Logo" src="BitMoodtransparantedited.png">
         <button class="button1"><a href="classes.php">Classes</a></button>
         <button class="button2"><a href="home.php">Home</a></button>
-        <button class="button3"><a href="login.php">Login</a></button>
+        <button class="button3"><a href="index.php">Login</a></button>
     </nav>
 
 <footer>
