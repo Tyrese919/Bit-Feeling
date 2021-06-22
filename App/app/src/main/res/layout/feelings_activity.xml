@@ -1,103 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/bitWhite">
+    android:background="@color/bitWhite"
+    android:orientation="vertical">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:background="@drawable/border">
+        android:background="@drawable/border"
+        android:orientation="vertical">
 
         <ImageView
-            android:layout_marginTop="30dp"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
             android:src="@drawable/bitmoodlogo" />
 
     </LinearLayout>
 
     <TextView
-        android:layout_marginTop="60dp"
-        android:gravity="center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
         android:text="Class:"
         android:textColor="@color/bitBlack"
-        android:textSize="24sp"/>
+        android:textSize="24sp" />
 
     <View
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginRight="100dp"
         android:layout_width="fill_parent"
         android:layout_height="1dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
         android:background="@color/bitGray" />
 
     <TextView
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Class name"
-        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="MMVA000C"
         android:textColor="@color/bitGray"
-        android:gravity="center_horizontal" />
+        android:textSize="16sp" />
 
     <TextView
-        android:textSize="20sp"
-        android:textColor="@color/bitBlack"
-        android:layout_marginTop="95dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:gravity="center_horizontal"
         android:text="How are you feeling?"
-        android:gravity="center_horizontal" />
+        android:textColor="@color/bitBlack"
+        android:textSize="20sp" />
 
     <View
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
         android:layout_width="fill_parent"
         android:layout_height="1dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
         android:background="@color/bitGray" />
 
     <LinearLayout
-        android:layout_marginTop="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/happyfeeling"
-        android:layout_marginLeft="80dp"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/happy_emoji" />
+        <ImageView
+            android:id="@+id/veryhappyfeeling"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/very_happy_emoji" />
 
-    <ImageView
-        android:id="@+id/neutralfeeling"
-        android:layout_marginLeft="40dp"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/neutral_emoji"/>
+        <ImageView
+            android:id="@+id/happyfeeling"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/happy_emoji" />
 
-    <ImageView
-        android:id="@+id/sadfeeling"
-        android:layout_marginLeft="40dp"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/sad_emoji" />
+        <ImageView
+            android:id="@+id/neutralfeeling"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/neutral_emoji" />
+
+        <ImageView
+            android:id="@+id/sadfeeling"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/sad_emoji" />
+
+        <ImageView
+            android:id="@+id/verysadfeeling"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/very_sad_emoji" />
 
     </LinearLayout>
 
     <ImageView
         android:id="@+id/chat"
-        android:layout_marginTop="75dp"
-        android:layout_gravity="center_horizontal"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
         android:src="@drawable/chatimage" />
 </LinearLayout>

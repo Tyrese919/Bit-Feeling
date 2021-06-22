@@ -9,4 +9,7 @@
     <string name="empty_login_view">You forgot to fill in your student code or password!</string>
     <string name="login_succes">You logged in succesfully!</string>
     <string name="login_fail">Your login details aren\'t correct.</string>
+
+    <string name="dialog_done">Your feeling has been saved!</string>
+    <string name="dialog_cancel">Your feeling is not saved!</string>
 </resources>

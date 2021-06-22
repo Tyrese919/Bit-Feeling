@@ -26,7 +26,13 @@ public class MainActivity extends AppCompatActivity {
         questionImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, getResources().getString(R.string.questionmark_pressed), Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/html");
+                intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"2113493@talnet.nl"});
+                intent.putExtra(Intent.EXTRA_SUBJECT, "Question from a Student!");
+                if (intent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(Intent.createChooser(intent, "Send Email"));
+                }
             }
         });
 
@@ -38,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
         Calendar cal = Calendar.getInstance();
 
         cal.setTimeInMillis(System.currentTimeMillis());
-        cal.set(Calendar.HOUR_OF_DAY, 14);
-        cal.set(Calendar.MINUTE, 47);
+        cal.set(Calendar.HOUR_OF_DAY, 9);
+        cal.set(Calendar.MINUTE, 0);
         cal.set(Calendar.SECOND, 0);
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(),AlarmManager.INTERVAL_DAY,broadcast);
 
@@ -52,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         if (logincode.getText().toString().isEmpty() || loginpassword.getText().toString().isEmpty()) {
             Toast.makeText(MainActivity.this, getResources().getString(R.string.empty_login_view), Toast.LENGTH_SHORT).show();
         } else {
-            if (logincode.getText().toString().equals("1") && loginpassword.getText().toString().equals("2")) {
+            if (logincode.getText().toString().equals("1") && loginpassword.getText().toString().equals("123")) {
                 Intent intent = new Intent(MainActivity.this, FeelingsActivity.class);
                 startActivity(intent);
                 Toast.makeText(MainActivity.this, getResources().getString(R.string.login_succes), Toast.LENGTH_SHORT).show();
