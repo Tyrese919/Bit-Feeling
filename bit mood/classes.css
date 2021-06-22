@@ -22,28 +22,19 @@ img#Logo {
     margin-left: auto;
     margin-right: auto;
     height: 200px;
-    width: 400px;
+    width: auto;
     padding-top: 20px;
 }
-.button1{
+.button{
     width: 200px;
     background-color: #948AA8;
-    margin-left: 410px;
-}
-.button2 {
-    width: 200px;
-    background-color: #948AA8;
-    margin-left: 410px;
-}
-.button3 {
-    width:200px;
-    background-color: #948AA8;
-    margin-left: 410px;
-    margin-top: 15px
+    margin-left: 225px;
 }
 span {
     color: blueviolet;
-    margin-left: 1050px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 body {
     background-color: whitesmoke;
@@ -51,4 +42,8 @@ body {
 nav {
     background-color: lightblue;
     height: 300px;
+}
+* {
+    margin: 0;
+    padding: 0;
 }
