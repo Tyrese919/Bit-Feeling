@@ -13,24 +13,19 @@
 <STYLE>A {text-decoration: none;} </STYLE>
 <body>
 
-
+<?php
 
 $name="name";
-
 $surname="surname";
-
 $schoolcode="schoolcode";
-
 $feeling="feeling";
 
-
-
-
-
-
-
-
 ?>
+
+
+
+
+
 
 <table border="1px" cellpadding="4" cellspacing="50">
 

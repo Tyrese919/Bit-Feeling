@@ -39,22 +39,7 @@ img {
      padding-bottom: 10px;
      padding-top: 10px;
  }
- .button1{
-     width: 200px;
-     background-color: #948AA8;
-     margin-left: 410px;
- }
- .button2 {
-     width: 200px;
-     background-color: #948AA8;
-     margin-left: 410px;
- }
- .button3 {
-     width:200px;
-     background-color: #948AA8;
-     margin-left: 410px;
-     margin-top: 15px
- }
+
 
 
     img#Logo {
@@ -105,6 +90,26 @@ img {
  * {
      margin: 0;
      padding: 0;
+     box-sizing: border-box;
  }
+
+     .button1{
+         width: 200px;
+         background-color: #948AA8;
+         margin-left: 410px;
+     }
+     .button2 {
+         width: 200px;
+         background-color: #948AA8;
+         margin-left: 410px;
+     }
+     .button3 {
+         width:200px;
+         background-color: #948AA8;
+         margin-left: 410px;
+         margin-top: 15px
+     }
+
+
 
 
