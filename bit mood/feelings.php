@@ -30,9 +30,9 @@ $feeling="feeling";
     </nav>
 
 <footer>
-    <span>
-        Created By Bit Academy &#169;
-    </span>
+
+        <a class="copyright" href="https://www.bit-academy.nl/"> Created By Bit Academy &#169;  </a>
+
 </footer>
 </body>
 </html>
