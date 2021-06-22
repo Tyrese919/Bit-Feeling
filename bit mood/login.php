@@ -25,6 +25,14 @@
       print "Error!: " . $e->getMessage() . "<br/>";
       die();
   }
+  // session start
+  session_start();
+
+  // if the user is logged in welcome to home page
+  if (isset($_SESSION["username"]) && $_SESSION["username"] == true) {
+      header("location: home.php");
+      exit;
+  }
   ?>
 
     <nav>
