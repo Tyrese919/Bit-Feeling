@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bitWhite">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/border">
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/bitmoodlogo" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="75dp"
+        android:textColor="@color/bitBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="School code:"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/logincode"
+        android:layout_marginRight="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bitBlack"
+        android:textColorHint="@color/bitGray"
+        android:backgroundTint="@color/bitGray"
+        android:hint="Enter your school code here"
+        android:gravity="center_horizontal"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_marginTop="75dp"
+        android:textColor="@color/bitBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Password:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/loginpassword"
+        android:layout_marginRight="75dp"
+        android:layout_marginLeft="75dp"
+        android:textColor="@color/bitBlack"
+        android:textColorHint="@color/bitGray"
+        android:backgroundTint="@color/bitGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password here"
+        android:gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:textSize="14sp"/>
+
+    <Button
+        android:onClick="login"
+        android:id="@+id/signin"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in" />
+
+    <ImageView
+        android:id="@+id/questionmark"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:tint="@color/bitBlack"
+        android:src="@drawable/questionmark"/>
+</LinearLayout>
