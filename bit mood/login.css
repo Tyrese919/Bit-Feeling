@@ -44,7 +44,7 @@ img#Logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 200px;
+    height: 220px;
     width: 400px;
     padding-top: 20px;
 }
@@ -67,6 +67,7 @@ img#Logo {
 span {
     color: blueviolet;
     margin-left: 1050px;
+
 }
 body {
     background-color: whitesmoke;

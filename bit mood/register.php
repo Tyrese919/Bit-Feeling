@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -29,7 +29,7 @@
                              <div class="form_group">
                                  <input type="submit" name="submit" class="btn btn-primary" value="submit">
                              </div>
-                    <p>Already have an account? <a href="login.php">Login here</a>
+                    <p>Already have an account? <a href="index.php">Login here</a>
                         </p>
                 </div>
             </div>
