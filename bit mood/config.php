@@ -3,12 +3,12 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "bitmood_db_2";
+$dbname = "bitmood_db";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-echo "Connected successfully";
+
 

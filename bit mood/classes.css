@@ -35,6 +35,29 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+=======
+    width: 400px;
+    padding-top: 20px;
+}
+.button1{
+    width: 200px;
+    background-color: #948AA8;
+    margin-left: 410px;
+}
+.button2 {
+    width: 200px;
+    background-color: #948AA8;
+    margin-left: 410px;
+}
+.button3 {
+    width:200px;
+    background-color: #948AA8;
+    margin-left: 410px;
+    margin-top: 15px
+}
+span {
+    color: blueviolet;
+    margin-left: 1050px;
 }
 body {
     background-color: whitesmoke;

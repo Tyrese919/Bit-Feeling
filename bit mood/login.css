@@ -31,7 +31,10 @@ input {
     padding-right: 80px;
     font-size: 25px;
 }
+
 .btn {
+input#btn {
+
     font-size:25px;
     padding-right: 50px;
     padding-left: 50px;
@@ -59,6 +62,29 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 220px;
+    width: 400px;
+    padding-top: 20px;
+}
+.button1{
+    width: 200px;
+    background-color: #948AA8;
+    margin-left: 410px;
+}
+.button2 {
+    width: 200px;
+    background-color: #948AA8;
+    margin-left: 410px;
+}
+.button3 {
+    width:200px;
+    background-color: #948AA8;
+    margin-left: 410px;
+    margin-top: 15px
+}
+span {
+    color: blueviolet;
+    margin-left: 1050px;
 }
 body {
     background-color: whitesmoke;
