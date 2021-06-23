@@ -31,19 +31,37 @@ input {
     padding-right: 80px;
     font-size: 25px;
 }
+
+.btn {
 input#btn {
+
     font-size:25px;
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 10px;
     padding-top: 10px;
     margin-top: 10px;
+    background-color: #948AA8;
 }
 
 img#Logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 200px;
+    width: auto;
+    padding-top: 20px;
+}
+.button{
+    width: 200px;
+    background-color: #948AA8;
+    margin-left: 225px;
+}
+span {
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 220px;
     width: 400px;
     padding-top: 20px;
@@ -67,7 +85,6 @@ img#Logo {
 span {
     color: blueviolet;
     margin-left: 1050px;
-
 }
 body {
     background-color: whitesmoke;

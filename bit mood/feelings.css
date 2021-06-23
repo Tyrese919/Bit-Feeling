@@ -22,6 +22,19 @@ img#Logo {
     margin-left: auto;
     margin-right: auto;
     height: 200px;
+    width: auto;
+    padding-top: 20px;
+}
+.button{
+    width: 200px;
+    background-color: #948AA8;
+    margin-left: 225px;
+}
+span {
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 400px;
     padding-top: 20px;
 }
@@ -44,6 +57,7 @@ img#Logo {
 span {
     color: blueviolet;
     margin-left: 1050px;
+
 }
 nav {
     background-color: lightblue;
@@ -52,7 +66,49 @@ nav {
 body {
     background-color: whitesmoke;
 }
+
 * {
     margin: 0;
     padding: 0;
 }
+
+.feeling_table {
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    font-weight: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.feeling_table tr th {
+    background-color: #ADD8E6;
+    border: solid #ADD8E6;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.feeling_table th,
+.feeling_table td {
+    padding: 12px 15px;
+}
+
+.feeling_table td {
+    border: solid whitesmoke;
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.feeling_table td:nth-of-type(even) {
+    text-align: left;
+}
+=======
+* {
+    margin: 0;
+    padding: 0;
+}
+
