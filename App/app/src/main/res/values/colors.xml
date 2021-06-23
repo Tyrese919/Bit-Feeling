@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bitBlack">#000000</color>
+    <color name="bitLightBlue">#ADD8E6</color>
+    <color name="bitWhite">#F5F5F5</color>
+    <color name="bitGray">#a9a9a9</color>
+</resources>
