@@ -39,9 +39,9 @@
     </form>
 
     <footer>
-
-       <a class="copyright" href="https://www.bit-academy.nl/"> Created By Bit Academy &#169;  </a>
-     
+      <span>
+       Created By Bit Academy &#169;
+      </span>
     </footer>
 
   </body>

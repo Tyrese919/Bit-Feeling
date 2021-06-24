@@ -82,7 +82,11 @@
     mysqli_close($conn);
     ?>
     <footer>
+<<<<<<< HEAD
       <span > Created By Bit Academy &#169; </span>
+=======
+      <span> Created By Bit Academy &#169; </span>
+>>>>>>> parent of 6d9a59a (link to bit site)
     </footer>
   </body>
 </html>
